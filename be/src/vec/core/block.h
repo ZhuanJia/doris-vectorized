@@ -72,6 +72,7 @@ public:
     void erase(const std::set<size_t>& positions);
     /// remove the column with the specified name
     void erase(const String& name);
+
     // T was std::set<int>, std::vector<int>, std::list<int>
     template <class T>
     void erase_not_in(const T& container) {
