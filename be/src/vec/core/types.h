@@ -160,6 +160,7 @@ struct TypeName<BitmapValue> {
 
 template <typename T>
 struct TypeId;
+
 template <>
 struct TypeId<UInt8> {
     static constexpr const TypeIndex value = TypeIndex::UInt8;
